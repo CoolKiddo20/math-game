@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Playwrite CU", 'cursive';
+}
+
+.title{
+    color: #155f15;
+}
+
+#start-game{
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: #155f15;
+    margin-top: 30px;
+    color: #ffff;
+}
+
+#start-game:hover{
+    background-color: #ffff;
+    color: #155f15;
+    border: 1px solid #155f15;
+}
+
+#submit-answer{
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: #155f15;
+    margin-top: 30px;
+    color: #ffff;
+}
+
+#submit-answer:hover{
+    background-color: #ffff;
+    color: #155f15;
+    border: 1px solid #155f15;
+}
+
+#answer-input{
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: #ffff;
+    margin-top: 30px;
+}
+
+#play-again{
+    border: none;
+    border-radius: 25px;
+    width: 300px;
+    height: 50px;
+    background-color: #155f15;
+    margin-top: 30px;
+    color: #ffff;
+}
+
+#play-again:hover{
+    background-color: #ffff;
+    color: #155f15;
+    border: 1px solid #155f15;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+#game-container {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hidden {
+    display: none;
+}
